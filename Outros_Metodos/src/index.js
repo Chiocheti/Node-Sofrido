@@ -4,6 +4,7 @@ const express = require ("express");
 // Criando a instancia (objeto)
 const App = express();
 
+// Manda e recebe uma requisição
 App.get('/Projetos' , (request, response) => {
 
     return response.json([
