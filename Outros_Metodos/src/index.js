@@ -27,7 +27,7 @@ App.post('/Projetos2' , (request,response) => {
 
 })
 
-App.put('/Projeto3' , (request,response) => {
+App.put('/Projetos3' , (request,response) => {
     
     return response.json([
 
@@ -39,7 +39,7 @@ App.put('/Projeto3' , (request,response) => {
     ]);
 })
 
-App.delete('/Projetos2' , (request,response) => {
+App.delete('/Projetos4' , (request,response) => {
 
     return response.json([
 
